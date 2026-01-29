@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Smooth Scroll -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* Home Section */
+    #home {
+      min-height: 100vh;
+      background: linear-gradient(to right, #0d6efd, #6610f2);
+      color: white;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    /* Section spacing */
+    section {
+      padding: 80px 0;
+    }
+
+    /* Skill badges */
+    .skill-badge {
+      font-size: 1rem;
+      margin: 5px;
+    }
+
+    /* Project cards */
+    .card:hover {
+      transform: scale(1.03);
+      transition: 0.3s;
+    }
+
+    /* Footer */
+    footer {
+      background: #111;
+      color: #aaa;
+      padding: 15px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">MyPortfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Hi, I'm Vishakha 👋</h1>
+    <p class="lead mt-3">
+      Aspiring Engineer | Web Developer | Data Analytics Enthusiast
+    </p>
+    <a href="#projects" class="btn btn-light btn-lg mt-4">View My Work</a>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+  <div class="container text-center">
+    <h2 class="mb-4">Skills</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <span class="badge bg-primary skill-badge">HTML</span>
+        <span class="badge bg-success skill-badge">CSS</span>
+        <span class="badge bg-warning text-dark skill-badge">JavaScript</span>
+        <span class="badge bg-info text-dark skill-badge">Bootstrap</span>
+        <span class="badge bg-secondary skill-badge">Python</span>
+        <span class="badge bg-danger skill-badge">C / C++</span>
+        <span class="badge bg-dark skill-badge">Data Analytics</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Projects</h2>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <div class="card-body">
+            <h5 class="card-title">Smart Energy Monitoring</h5>
+            <p class="card-text">
+              IoT-based system to monitor and analyze energy consumption in real time.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Website</h5>
+            <p class="card-text">
+              Responsive personal portfolio using HTML, CSS & Bootstrap.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <div class="card-body">
+            <h5 class="card-title">Data Analysis Project</h5>
+            <p class="card-text">
+              Analyzed datasets using Python to extract insights and trends.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container text-center">
+    <h2 class="mb-4">Contact Me</h2>
+    <p>Email: <strong>vishakha@example.com</strong></p>
+    <p>LinkedIn: <strong>linkedin.com/in/vishakha</strong></p>
+    <p>GitHub: <strong>github.com/vishakha</strong></p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Vishakha Choudhari | All Rights Reserved</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
